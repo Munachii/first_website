@@ -23,12 +23,12 @@
     z-index:1;
     width:100%;
     max-width:1300px;
-    margin: 0 auto; /*top right bottom left for 4 0s*/
-    padding: 0 50px; /*top/bottom and right/left*/
+    margin: 0 auto; 
+    padding: 0 50px; 
 
 }
 
- #navbar__logo{
+ /*#navbar__logo{
     background-color:#ff8177; 
     background-image:linear-gradient(to top, #ff0844 0%, #ffb199 100% );
     background-size:100%;
@@ -89,4 +89,4 @@
     border-radius:4px;
     background:#f77062;  
     color:#fff;
-}
+} */
