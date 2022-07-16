@@ -28,7 +28,7 @@
 
 }
 
- /*#navbar__logo{
+ #navbar__logo{
     background-color:#ff8177; 
     background-image:linear-gradient(to top, #ff0844 0%, #ffb199 100% );
     background-size:100%;
@@ -89,4 +89,4 @@
     border-radius:4px;
     background:#f77062;  
     color:#fff;
-} */
+}
