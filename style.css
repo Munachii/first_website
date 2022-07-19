@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin:0;
     padding:0;
@@ -10,11 +10,11 @@
     height:80px;
     /* display: flex; */
     justify-content: center;
-    align-items:center;
-    font-size: 1.2rem;/*1 rem = 16px*/
-    position:sticky;
-    top:0;
-    z-index:999;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 .navbar__container{ /*container with all the links inside in the va bar*/
     display:flex;
@@ -41,10 +41,10 @@
     cursor:pointer;
     text-decoration: none; 
     font-size: 2rem;
-} 
+}
 
-.fa-gem{
-    margin-right:0.5rem;
+.fa-gem {
+    margin-right: 0.5rem;
 }
 
 .navbar__menu{ /*home tech and products*/
@@ -74,7 +74,7 @@
     align-items: center;
     padding: 0 1rem;
     width: 100%;
-}  
+}
 
 .button{
     display:flex;/*signup button*/
@@ -148,7 +148,7 @@
 
     .navbar_links{
         text-align:center;
-        padding:2 rem;
+        padding:2rem;
         width:100%;
         display:table;
     }
@@ -160,10 +160,29 @@
         transform: translate(5%,20%);
     }
     .navbar__btn{
-        padding-bottom: 2 rem;
+        padding-bottom: 2rem;
     }
-    .button{
-        display:flex;
+    .button {
+        display: flex;
         justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80px;
+        margin: 0;
+    }
+
+    .navbar__toggle .bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    #mobile-menu.is-active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    #mobile-menu.is-active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
     }
 }
